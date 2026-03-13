@@ -104,40 +104,42 @@ Each team was evaluated through the following process:
 
 > Ranked by total score (highest to lowest). Click the **Audit Report** link to read the full analysis for each team.
 
-| Rank | Team | Idea / Domain | M1 | M2 | M3 | M4 | M5 | M6 | M7 | M8 | **Total** | Audit Report |
-|:----:|------|--------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:---------:|:------------:|
-| 1 | **Team Gojo** | S.H.I.E.L.D. — Borewell Safety Hardware | 10 | 8 | 10 | 7 | 7 | 9 | 8 | 10 | **69/80** | [View](Team_Gojo.md) |
-| 2 | **End of Beginning** | ScamShield — Migrant Worker Job Scam Detection | 9 | 8 | 10 | 7 | 8 | 9 | 7 | 10 | **68/80** | [View](End_of_Beginning.md) |
-| 3 | **OmniShield** | AI-Powered Personal Cyber Threat Intelligence | 9 | 9 | 9 | 7 | 7 | 9 | 7 | 8 | **65/80** | [View](OmniShield.md) |
-| 4 | **Codex AI** | GrievanceIQ — Multi-Agent Grievance Resolution | 8 | 8 | 8 | 7 | 7 | 8 | 7 | 8 | **61/80** | [View](Codex_AI.md) |
-| 5 | **Hash Hackers** | Blockchain Digital Evidence Integrity System | 8 | 7 | 8 | 6 | 7 | 7 | 7 | 8 | **58/80** | [View](Hash_Hackers.md) |
-| 6 | **Nothing** | Golden Hour Emergency Response Platform | 8 | 7 | 9 | 5 | 6 | 8 | 5 | 9 | **57/80** | [View](Nothing.md) |
-| 7 | **Off by One** | Diabetic Retinopathy Screening System | 7 | 7 | 8 | 6 | 6 | 7 | 7 | 8 | **56/80** | [View](Off_by_One.md) |
-| 7 | **SimpleX Crew** | Farm Machinery Booking Platform | 7 | 6 | 8 | 6 | 7 | 7 | 7 | 8 | **56/80** | [View](SimpleX_Crew.md) |
-| 9 | **Infinity Loopers** | TrustShield — Deepfake & Digital Abuse Detection | 7 | 7 | 8 | 6 | 6 | 7 | 6 | 8 | **55/80** | [View](Infinity_Loopers.md) |
-| 9 | **The Vanguards** | NCC Sentinel — Digital Command Center | 8 | 7 | 8 | 5 | 6 | 8 | 6 | 7 | **55/80** | [View](The_Vanguards.md) |
-| 9 | **Pharma Innovators** | AI-Powered Drug Repurposing Platform | 8 | 7 | 7 | 6 | 7 | 7 | 5 | 8 | **55/80** | [View](Pharma_Innovators.md) |
-| 12 | **Team Mavericks** | Ad Nova — AI Ad Generation Platform | 7 | 7 | 7 | 7 | 8 | 7 | 7 | 4 | **54/80** | [View](Team_Mavericks.md) |
-| 12 | **Team Dracarys** | JurisBot — Legal AI Assistant | 7 | 7 | 7 | 6 | 7 | 7 | 6 | 7 | **54/80** | [View](Team_Dracarys.md) |
-| 12 | **SVCE Hackathon Dhinesh** | KindMeal — Surplus Food Donation Platform | 6 | 7 | 7 | 6 | 6 | 7 | 7 | 8 | **54/80** | [View](SVCE_Hackathon_Dhinesh.md) |
-| 15 | **Fight Club** | Zero-Waste Wedding Management | 7 | 6 | 7 | 6 | 7 | 7 | 6 | 7 | **53/80** | [View](Fight_Club.md) |
-| 16 | **Devhouse** | Postpartum Maternal Health Platform | 7 | 6 | 7 | 5 | 6 | 7 | 6 | 8 | **52/80** | [View](Devhouse.md) |
-| 17 | **Devil Genius** | Virtual Interview Preparation Agent | 6 | 7 | 7 | 6 | 6 | 7 | 7 | 5 | **51/80** | [View](Devil_Genius.md) |
-| 18 | **Team Singularity** | AI-Driven Traffic Management System | 6 | 7 | 7 | 5 | 6 | 7 | 5 | 7 | **50/80** | [View](Team_Singularity.md) |
-| 19 | **Code Rescuers** | Emergency Response Coordination System | 6 | 6 | 7 | 5 | 5 | 6 | 5 | 8 | **48/80** | [View](Code_Rescuers.md) |
-| 20 | **Sixth Sense Coders** | Agentic AI for Business Operations | 7 | 6 | 6 | 5 | 6 | 6 | 5 | 5 | **46/80** | [View](Sixth_Sense_Coders.md) |
-| 20 | **Team Targaryens** | AI-Powered Disease Detection System | 6 | 6 | 6 | 5 | 5 | 6 | 5 | 7 | **46/80** | [View](Team_Targaryens.md) |
-| 22 | **Cyber Nova** | Civic Issue Reporting Platform | 5 | 6 | 6 | 5 | 5 | 6 | 6 | 6 | **45/80** | [View](Cyber_Nova.md) |
-| 23 | **SVCE PPT2 Parvesh** | Carbon Emission Tracking & Tree Monitoring | 7 | 5 | 6 | 4 | 6 | 5 | 4 | 7 | **44/80** | [View](SVCE_PPT2_Parvesh.md) |
-| 24 | **Care Connect** | Elderly Care Solutions Platform | 5 | 5 | 6 | 4 | 5 | 6 | 4 | 7 | **42/80** | [View](Care_Connect.md) |
-| 25 | **Obscura** | AI-Powered Digital Identity Vault | 5 | 6 | 5 | 5 | 5 | 6 | 5 | 4 | **41/80** | [View](Obscura.md) |
-| 26 | **SVCE PPT1 Perrarish** | EdScroll — Reel-Based Learning Platform | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | **39/80** | [View](SVCE_PPT1_Perrarish.md) |
-| 26 | **Abstract Final Panimalar** | AI Fashion Design & Virtual Try-On | 7 | 6 | 6 | 4 | 5 | 3 | 4 | 4 | **39/80** | [View](Abstract_Final_Panimalar.md) |
-| 28 | **BlockX** | Innovation & Technology Discovery Engine | 6 | 5 | 5 | 4 | 5 | 5 | 4 | 4 | **38/80** | [View](BlockX.md) |
-| 29 | **Powerhouse** | AI Phishing Detection System | 4 | 4 | 5 | 3 | 4 | 3 | 4 | 5 | **32/80** | [View](Powerhouse.md) |
-| 30 | **Human Intelligence** | AI Travel Planner | 4 | 3 | 4 | 3 | 4 | 4 | 4 | 3 | **29/80** | [View](Human_Intelligence.md) |
-| 31 | **Food and Health Nutrition** | GM Foods Presentation (Non-Software) | 1 | 1 | 1 | 1 | 1 | 2 | 1 | 2 | **10/80** | [View](Food_and_Health_Nutrition.md) |
-| 31 | **Code Fusion** | Incomplete / Sparse Submission | 2 | 1 | 2 | 1 | 1 | 1 | 1 | 1 | **10/80** | [View](Code_Fusion.md) |
+| Rank | Team | College | Idea / Domain | M1 | M2 | M3 | M4 | M5 | M6 | M7 | M8 | **Total** | Audit Report |
+|:----:|------|---------|--------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:---------:|:------------:|
+| 1 | **Team Gojo** | SVCE | S.H.I.E.L.D. — Borewell Safety Hardware | 10 | 8 | 10 | 7 | 7 | 9 | 8 | 10 | **69/80** | [View](Team_Gojo_SVCE.md) |
+| 2 | **End of Beginning** | SVCE | ScamShield — Migrant Worker Job Scam Detection | 9 | 8 | 10 | 7 | 8 | 9 | 7 | 10 | **68/80** | [View](End_of_Beginning_SVCE.md) |
+| 3 | **OmniShield** | SVCE | AI-Powered Personal Cyber Threat Intelligence | 9 | 9 | 9 | 7 | 7 | 9 | 7 | 8 | **65/80** | [View](OmniShield_SVCE.md) |
+| 4 | **Codex AI** | SVCE | GrievanceIQ — Multi-Agent Grievance Resolution | 8 | 8 | 8 | 7 | 7 | 8 | 7 | 8 | **61/80** | [View](Codex_AI_SVCE.md) |
+| 5 | **Hash Hackers** | SVCE | Blockchain Digital Evidence Integrity System | 8 | 7 | 8 | 6 | 7 | 7 | 7 | 8 | **58/80** | [View](Hash_Hackers_SVCE.md) |
+| 6 | **Nothing** | SVCE | Golden Hour Emergency Response Platform | 8 | 7 | 9 | 5 | 6 | 8 | 5 | 9 | **57/80** | [View](Nothing_SVCE.md) |
+| 7 | **Off by One** | SVCE | Diabetic Retinopathy Screening System | 7 | 7 | 8 | 6 | 6 | 7 | 7 | 8 | **56/80** | [View](Off_by_One_SVCE.md) |
+| 7 | **SimpleX Crew** | SVCE | Farm Machinery Booking Platform | 7 | 6 | 8 | 6 | 7 | 7 | 7 | 8 | **56/80** | [View](SimpleX_Crew_SVCE.md) |
+| 9 | **Infinity Loopers** | SVCE | TrustShield — Deepfake & Digital Abuse Detection | 7 | 7 | 8 | 6 | 6 | 7 | 6 | 8 | **55/80** | [View](Infinity_Loopers_SVCE.md) |
+| 9 | **The Vanguards** | SSEC | NCC Sentinel — Digital Command Center | 8 | 7 | 8 | 5 | 6 | 8 | 6 | 7 | **55/80** | [View](The_Vanguards_SSEC.md) |
+| 9 | **Pharma Innovators** | SVCE | AI-Powered Drug Repurposing Platform | 8 | 7 | 7 | 6 | 7 | 7 | 5 | 8 | **55/80** | [View](Pharma_Innovators_SVCE.md) |
+| 12 | **Team Mavericks** | SVCE | Ad Nova — AI Ad Generation Platform | 7 | 7 | 7 | 7 | 8 | 7 | 7 | 4 | **54/80** | [View](Team_Mavericks_SVCE.md) |
+| 12 | **Team Dracarys** | SVCE | JurisBot — Legal AI Assistant | 7 | 7 | 7 | 6 | 7 | 7 | 6 | 7 | **54/80** | [View](Team_Dracarys_SVCE.md) |
+| 12 | **Care Coders** | SEC | KindMeal — Surplus Food Donation Platform | 6 | 7 | 7 | 6 | 6 | 7 | 7 | 8 | **54/80** | [View](Care_Coders_SEC.md) |
+| 15 | **Fight Club** | SVCE | Zero-Waste Wedding Management | 7 | 6 | 7 | 6 | 7 | 7 | 6 | 7 | **53/80** | [View](Fight_Club_SVCE.md) |
+| 16 | **Devhouse** | SVCE | Postpartum Maternal Health Platform | 7 | 6 | 7 | 5 | 6 | 7 | 6 | 8 | **52/80** | [View](Devhouse_SVCE.md) |
+| 17 | **Devil Genius** | SVCE | Virtual Interview Preparation Agent | 6 | 7 | 7 | 6 | 6 | 7 | 7 | 5 | **51/80** | [View](Devil_Genius_SVCE.md) |
+| 18 | **Singularity** | SVCE | AI-Driven Traffic Management System | 6 | 7 | 7 | 5 | 6 | 7 | 5 | 7 | **50/80** | [View](Singularity_SVCE.md) |
+| 19 | **Code Rescuers** | SVCE | Emergency Response Coordination System | 6 | 6 | 7 | 5 | 5 | 6 | 5 | 8 | **48/80** | [View](Code_Rescuers_SVCE.md) |
+| 20 | **Sixth Sense Coders** | SVCE | Agentic AI for Business Operations | 7 | 6 | 6 | 5 | 6 | 6 | 5 | 5 | **46/80** | [View](Sixth_Sense_Coders_SVCE.md) |
+| 20 | **Team Targaryens** | SVCE | AI-Powered Disease Detection System | 6 | 6 | 6 | 5 | 5 | 6 | 5 | 7 | **46/80** | [View](Team_Targaryens_SVCE.md) |
+| 22 | **Cyber Nova** | SVCE | Civic Issue Reporting Platform | 5 | 6 | 6 | 5 | 5 | 6 | 6 | 6 | **45/80** | [View](Cyber_Nova_SVCE.md) |
+| 23 | **ILC** | PEC | Carbon Emission Tracking & Tree Monitoring | 7 | 5 | 6 | 4 | 6 | 5 | 4 | 7 | **44/80** | [View](ILC_PEC.md) |
+| 24 | **Care Connect** | SVCE | Elderly Care Solutions Platform | 5 | 5 | 6 | 4 | 5 | 6 | 4 | 7 | **42/80** | [View](Care_Connect_SVCE.md) |
+| 25 | **Obscura** | SVCE | AI-Powered Digital Identity Vault | 5 | 6 | 5 | 5 | 5 | 6 | 5 | 4 | **41/80** | [View](Obscura_SVCE.md) |
+| 26 | **IIP** | PEC | EdScroll — Reel-Based Learning Platform | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | **39/80** | [View](IIP_PEC.md) |
+| 26 | **AI Fashion Design** | PEC | AI Fashion Design & Virtual Try-On | 7 | 6 | 6 | 4 | 5 | 3 | 4 | 4 | **39/80** | [View](AI_Fashion_Design_PEC.md) |
+| 28 | **BlockX** | SVCE | Innovation & Technology Discovery Engine | 6 | 5 | 5 | 4 | 5 | 5 | 4 | 4 | **38/80** | [View](BlockX_SVCE.md) |
+| 29 | **Powerhouse** | SVCE | AI Phishing Detection System | 4 | 4 | 5 | 3 | 4 | 3 | 4 | 5 | **32/80** | [View](Powerhouse_SVCE.md) |
+| 30 | **Human Intelligence** | SVCE | AI Travel Planner | 4 | 3 | 4 | 3 | 4 | 4 | 4 | 3 | **29/80** | [View](Human_Intelligence_SVCE.md) |
+| 31 | **Food and Health Nutrition** | SVCE | GM Foods Presentation (Non-Software) | 1 | 1 | 1 | 1 | 1 | 2 | 1 | 2 | **10/80** | [View](Food_and_Health_Nutrition_SVCE.md) |
+| 31 | **Code Fusion** | SVCE | Incomplete / Sparse Submission | 2 | 1 | 2 | 1 | 1 | 1 | 1 | 1 | **10/80** | [View](Code_Fusion_SVCE.md) |
+
+> **College Legend:** SVCE = Sri Venkateswara College of Engineering | SSEC = Sri Sairam Engineering College | SEC = Saveetha Engineering College | PEC = Panimalar Engineering College
 
 ---
 
@@ -150,9 +152,9 @@ Each team was evaluated through the following process:
 | **10** | Team Gojo |
 | **9** | End of Beginning, OmniShield |
 | **8** | Codex AI, Hash Hackers, Nothing, The Vanguards, Pharma Innovators |
-| **7** | Off by One, SimpleX Crew, Infinity Loopers, Team Mavericks, Team Dracarys, Fight Club, Devhouse, Sixth Sense Coders, SVCE PPT2 Parvesh, Abstract Final Panimalar |
-| **6** | SVCE Hackathon Dhinesh, Devil Genius, Team Singularity, Code Rescuers, Team Targaryens, BlockX |
-| **5** | Cyber Nova, Care Connect, Obscura, SVCE PPT1 Perrarish |
+| **7** | Off by One, SimpleX Crew, Infinity Loopers, Team Mavericks, Team Dracarys, Fight Club, Devhouse, Sixth Sense Coders, ILC (PEC), AI Fashion Design (PEC) |
+| **6** | Care Coders (SEC), Devil Genius, Singularity, Code Rescuers, Team Targaryens, BlockX |
+| **5** | Cyber Nova, Care Connect, Obscura, IIP (PEC) |
 | **4** | Powerhouse, Human Intelligence |
 | **1-2** | Code Fusion, Food and Health Nutrition |
 
@@ -161,10 +163,10 @@ Each team was evaluated through the following process:
 | Score | Teams | Reasoning |
 |-------|-------|-----------|
 | **8** | Team Gojo | Hardware prototype with concrete deployment plan, sub-1000 INR unit, solar-powered, zero-infrastructure design |
-| **7** | End of Beginning, Off by One, SimpleX Crew, SVCE Hackathon Dhinesh, Team Mavericks, Hash Hackers, Codex AI, Devil Genius | Strong alignment between tech stack and real-world constraints; clear deployment pathways |
+| **7** | End of Beginning, Off by One, SimpleX Crew, Care Coders (SEC), Team Mavericks, Hash Hackers, Codex AI, Devil Genius | Strong alignment between tech stack and real-world constraints; clear deployment pathways |
 | **6** | The Vanguards, Team Dracarys, Fight Club, Devhouse, Infinity Loopers, Cyber Nova | Feasible but significant adoption barriers (government compliance, user behavior change, partnerships required) |
-| **5** | Nothing, Team Singularity, Sixth Sense Coders, Pharma Innovators, SVCE PPT1 Perrarish, Obscura, Code Rescuers, Team Targaryens | Heavy dependency on external infrastructure, government APIs, or institutional partnerships that are hard to secure |
-| **4** | Care Connect, SVCE PPT2 Parvesh, Abstract Final Panimalar, BlockX, Powerhouse, Human Intelligence | Major implementation barriers: satellite imagery costs, GPU compute requirements, API access constraints, or market saturation |
+| **5** | Nothing, Singularity, Sixth Sense Coders, Pharma Innovators, IIP (PEC), Obscura, Code Rescuers, Team Targaryens | Heavy dependency on external infrastructure, government APIs, or institutional partnerships that are hard to secure |
+| **4** | Care Connect, ILC (PEC), AI Fashion Design (PEC), BlockX, Powerhouse, Human Intelligence | Major implementation barriers: satellite imagery costs, GPU compute requirements, API access constraints, or market saturation |
 | **1** | Code Fusion, Food and Health Nutrition | No implementable system proposed |
 
 ### M8: Social Impact Quotient — Score Distribution
@@ -173,10 +175,10 @@ Each team was evaluated through the following process:
 |-------|-------|---------------|
 | **10** | Team Gojo, End of Beginning | Child deaths from borewells; ₹1,500 Cr annual loss to migrant workers |
 | **9** | Nothing | Preventable deaths from delayed emergency response |
-| **8** | Off by One, SimpleX Crew, Codex AI, Hash Hackers, Infinity Loopers, Pharma Innovators, Devhouse, SVCE Hackathon Dhinesh, Code Rescuers, OmniShield | Healthcare access, food waste, digital safety, farmer livelihoods |
-| **7** | The Vanguards, Team Dracarys, Fight Club, Team Singularity, Team Targaryens, Care Connect, SVCE PPT2 Parvesh | Community welfare, legal access, environmental impact, elderly care |
-| **5-6** | Cyber Nova, Devil Genius, Sixth Sense Coders, SVCE PPT1 Perrarish, Powerhouse | Moderate societal benefit |
-| **3-4** | Team Mavericks, Human Intelligence, BlockX, Abstract Final Panimalar, Obscura | Primarily commercial / convenience-oriented |
+| **8** | Off by One, SimpleX Crew, Codex AI, Hash Hackers, Infinity Loopers, Pharma Innovators, Devhouse, Care Coders (SEC), Code Rescuers, OmniShield | Healthcare access, food waste, digital safety, farmer livelihoods |
+| **7** | The Vanguards, Team Dracarys, Fight Club, Singularity, Team Targaryens, Care Connect, ILC (PEC) | Community welfare, legal access, environmental impact, elderly care |
+| **5-6** | Cyber Nova, Devil Genius, Sixth Sense Coders, IIP (PEC), Powerhouse | Moderate societal benefit |
+| **3-4** | Team Mavericks, Human Intelligence, BlockX, AI Fashion Design (PEC), Obscura | Primarily commercial / convenience-oriented |
 | **1-2** | Code Fusion, Food and Health Nutrition | No measurable impact pathway |
 
 ---
@@ -188,64 +190,64 @@ Based on total scores, teams fall into five tiers:
 ### Tier S — Championship Caliber (65-80)
 > These teams demonstrated exceptional problem understanding, technical depth, and real-world awareness. Their ideas can transition from hackathon to startup with focused execution.
 
-| Team | Score | Why They're Here |
-|------|-------|-----------------|
-| **Team Gojo** | 69/80 | Only hardware project. Triple-redundant sensing, TinyML edge inference, solar-powered, sub-₹1,000 unit cost. Addresses a problem where children die. Engineering maturity far beyond 2nd-year level. |
-| **End of Beginning** | 68/80 | Most emotionally compelling problem statement. Multi-modal AI pipeline (text + voice + OCR) in 12+ Indian languages. Phased B2B revenue model shows business maturity. |
-| **OmniShield** | 65/80 | Most technically sophisticated submission. 7-step OSINT intelligence pipeline with graph theory risk scoring. Production-grade tool selection (Sherlock, NetworkX, HIBP). |
+| Team | College | Score | Why They're Here |
+|------|---------|-------|-----------------|
+| **Team Gojo** | SVCE | 69/80 | Only hardware project. Triple-redundant sensing, TinyML edge inference, solar-powered, sub-₹1,000 unit cost. Addresses a problem where children die. Engineering maturity far beyond 2nd-year level. |
+| **End of Beginning** | SVCE | 68/80 | Most emotionally compelling problem statement. Multi-modal AI pipeline (text + voice + OCR) in 12+ Indian languages. Phased B2B revenue model shows business maturity. |
+| **OmniShield** | SVCE | 65/80 | Most technically sophisticated submission. 7-step OSINT intelligence pipeline with graph theory risk scoring. Production-grade tool selection (Sherlock, NetworkX, HIBP). |
 
 ### Tier A — Strong Contenders (54-64)
 > Solid ideas with clear technical direction. Need refinement in specific areas but have strong foundations.
 
-| Team | Score | Key Strength |
-|------|-------|-------------|
-| **Codex AI** | 61 | Multi-agent architecture with genuine agentic AI design |
-| **Hash Hackers** | 58 | Blockchain + forensics combination with clear legal application |
-| **Nothing** | 57 | Comprehensive emergency response chain covering the full golden hour |
-| **Off by One** | 56 | Focused medical AI with clear clinical pathway |
-| **SimpleX Crew** | 56 | Genuine rural problem with practical Uber-for-tractors model |
-| **Infinity Loopers** | 55 | Multi-modal deepfake detection across image, video, and audio |
-| **The Vanguards** | 55 | Unique NCC digital ecosystem addressing an unserved market |
-| **Pharma Innovators** | 55 | Ambitious drug repurposing with graph neural networks |
-| **Team Mavericks** | 54 | Strong business model with clear B2B ad-tech revenue |
-| **Team Dracarys** | 54 | Legal AI with solid Indian legal system understanding |
-| **SVCE Hackathon Dhinesh** | 54 | Practical food donation platform with strong logistics design |
+| Team | College | Score | Key Strength |
+|------|---------|-------|-------------|
+| **Codex AI** | SVCE | 61 | Multi-agent architecture with genuine agentic AI design |
+| **Hash Hackers** | SVCE | 58 | Blockchain + forensics combination with clear legal application |
+| **Nothing** | SVCE | 57 | Comprehensive emergency response chain covering the full golden hour |
+| **Off by One** | SVCE | 56 | Focused medical AI with clear clinical pathway |
+| **SimpleX Crew** | SVCE | 56 | Genuine rural problem with practical Uber-for-tractors model |
+| **Infinity Loopers** | SVCE | 55 | Multi-modal deepfake detection across image, video, and audio |
+| **The Vanguards** | SSEC | 55 | Unique NCC digital ecosystem addressing an unserved market |
+| **Pharma Innovators** | SVCE | 55 | Ambitious drug repurposing with graph neural networks |
+| **Team Mavericks** | SVCE | 54 | Strong business model with clear B2B ad-tech revenue |
+| **Team Dracarys** | SVCE | 54 | Legal AI with solid Indian legal system understanding |
+| **Care Coders** | SEC | 54 | Practical food donation platform with strong logistics design |
 
 ### Tier B — Promising but Incomplete (45-53)
 > Good problem identification but gaps in technical depth, feasibility, or presentation.
 
-| Team | Score | Primary Gap |
-|------|-------|------------|
-| **Fight Club** | 53 | Niche innovation but underestimates wedding industry complexity |
-| **Devhouse** | 52 | Critical health domain but thin on clinical validation |
-| **Devil Genius** | 51 | Functional concept but crowded market (Pramp, InterviewBit) |
-| **Team Singularity** | 50 | Solid YOLO-based approach but ignores Indian traffic heterogeneity |
-| **Code Rescuers** | 48 | Emergency response but overlaps with existing 108 infrastructure |
-| **Sixth Sense Coders** | 46 | Agentic AI buzzword without concrete implementation detail |
-| **Team Targaryens** | 46 | Disease detection needs clinical dataset and regulatory pathway |
-| **Cyber Nova** | 45 | Civic reporting is useful but not novel (Swachhata app exists) |
+| Team | College | Score | Primary Gap |
+|------|---------|-------|------------|
+| **Fight Club** | SVCE | 53 | Niche innovation but underestimates wedding industry complexity |
+| **Devhouse** | SVCE | 52 | Critical health domain but thin on clinical validation |
+| **Devil Genius** | SVCE | 51 | Functional concept but crowded market (Pramp, InterviewBit) |
+| **Singularity** | SVCE | 50 | Solid YOLO-based approach but ignores Indian traffic heterogeneity |
+| **Code Rescuers** | SVCE | 48 | Emergency response but overlaps with existing 108 infrastructure |
+| **Sixth Sense Coders** | SVCE | 46 | Agentic AI buzzword without concrete implementation detail |
+| **Team Targaryens** | SVCE | 46 | Disease detection needs clinical dataset and regulatory pathway |
+| **Cyber Nova** | SVCE | 45 | Civic reporting is useful but not novel (Swachhata app exists) |
 
 ### Tier C — Needs Significant Rework (30-44)
 > Fundamental issues in concept, feasibility, or market understanding. Requires pivot or major rethinking.
 
-| Team | Score | Core Issue |
-|------|-------|-----------|
-| **SVCE PPT2 Parvesh** | 44 | Satellite + AI carbon tracking is a research project, not a hackathon MVP |
-| **Care Connect** | 42 | Feature overload (8+ products) with unrealistic tech claims |
-| **Obscura** | 41 | DigiLocker exists. Pivot to portfolio-as-a-service |
-| **SVCE PPT1 Perrarish** | 39 | Duolingo-meets-TikTok in a saturated edtech market |
-| **Abstract Final Panimalar** | 39 | Strong ML concept but submission is just an abstract |
-| **BlockX** | 38 | Competing with billion-dollar companies (CB Insights, Gartner) |
-| **Powerhouse** | 32 | TF-IDF phishing detection in 2026 — Google Safe Browsing already exists |
+| Team | College | Score | Core Issue |
+|------|---------|-------|-----------|
+| **ILC** | PEC | 44 | Satellite + AI carbon tracking is a research project, not a hackathon MVP |
+| **Care Connect** | SVCE | 42 | Feature overload (8+ products) with unrealistic tech claims |
+| **Obscura** | SVCE | 41 | DigiLocker exists. Pivot to portfolio-as-a-service |
+| **IIP** | PEC | 39 | Duolingo-meets-TikTok in a saturated edtech market |
+| **AI Fashion Design** | PEC | 39 | Strong ML concept but submission is just an abstract |
+| **BlockX** | SVCE | 38 | Competing with billion-dollar companies (CB Insights, Gartner) |
+| **Powerhouse** | SVCE | 32 | TF-IDF phishing detection in 2026 — Google Safe Browsing already exists |
 
 ### Tier D — Non-Qualifying (Below 30)
 > Submissions that do not meet the minimum threshold for hackathon evaluation.
 
-| Team | Score | Reason |
-|------|-------|--------|
-| **Human Intelligence** | 29 | No tech stack, no architecture, competing with Google Travel |
-| **Food and Health Nutrition** | 10 | Not a software project. Academic GM Foods presentation. |
-| **Code Fusion** | 10 | Sparse/blank submission template with no substantive content |
+| Team | College | Score | Reason |
+|------|---------|-------|--------|
+| **Human Intelligence** | SVCE | 29 | No tech stack, no architecture, competing with Google Travel |
+| **Food and Health Nutrition** | SVCE | 10 | Not a software project. Academic GM Foods presentation. |
+| **Code Fusion** | SVCE | 10 | Sparse/blank submission template with no substantive content |
 
 ---
 
@@ -255,14 +257,14 @@ Based on the metric-level analysis, the following teams earned the highest score
 
 | Award | Metric | Winner(s) | Score |
 |-------|--------|-----------|-------|
-| **Most Innovative** | M1: Innovation & Originality | Team Gojo | 10/10 |
-| **Most Technically Sound** | M2: Technical Depth & Feasibility | OmniShield | 9/10 |
-| **Best Problem Definition** | M3: Problem Clarity & Relevance | Team Gojo, End of Beginning | 10/10 |
+| **Most Innovative** | M1: Innovation & Originality | Team Gojo (SVCE) | 10/10 |
+| **Most Technically Sound** | M2: Technical Depth & Feasibility | OmniShield (SVCE) | 9/10 |
+| **Best Problem Definition** | M3: Problem Clarity & Relevance | Team Gojo (SVCE), End of Beginning (SVCE) | 10/10 |
 | **Best Architecture** | M4: Scalability & Architecture | Team Gojo, End of Beginning, OmniShield, Codex AI, Team Mavericks | 7/10 |
-| **Best Business Model** | M5: Business Viability | End of Beginning, Team Mavericks | 8/10 |
+| **Best Business Model** | M5: Business Viability | End of Beginning (SVCE), Team Mavericks (SVCE) | 8/10 |
 | **Best Presentation** | M6: Presentation Quality | Team Gojo, End of Beginning, OmniShield | 9/10 |
-| **Most Deployable** | M7: Real-World Implementability | Team Gojo | 8/10 |
-| **Highest Social Impact** | M8: Social Impact Quotient | Team Gojo, End of Beginning | 10/10 |
+| **Most Deployable** | M7: Real-World Implementability | Team Gojo (SVCE) | 8/10 |
+| **Highest Social Impact** | M8: Social Impact Quotient | Team Gojo (SVCE), End of Beginning (SVCE) | 10/10 |
 
 ---
 
@@ -300,42 +302,44 @@ The highest M7 score (8/10, Team Gojo) came from a team that designed for "zero 
 
 ## Team Audit Reports
 
-Complete audit reports for all 32 teams:
+Complete audit reports for all 32 teams (ranked by score):
 
-| # | Team | Report | College |
-|---|------|--------|---------|
-| 1 | Team Gojo | [Team_Gojo.md](Team_Gojo.md) | SVCE |
-| 2 | End of Beginning | [End_of_Beginning.md](End_of_Beginning.md) | SVCE |
-| 3 | OmniShield | [OmniShield.md](OmniShield.md) | SVCE |
-| 4 | Codex AI | [Codex_AI.md](Codex_AI.md) | SVCE |
-| 5 | Hash Hackers | [Hash_Hackers.md](Hash_Hackers.md) | SVCE |
-| 6 | Nothing | [Nothing.md](Nothing.md) | SVCE |
-| 7 | Off by One | [Off_by_One.md](Off_by_One.md) | SVCE |
-| 8 | SimpleX Crew | [SimpleX_Crew.md](SimpleX_Crew.md) | SVCE |
-| 9 | Infinity Loopers | [Infinity_Loopers.md](Infinity_Loopers.md) | SVCE |
-| 10 | The Vanguards | [The_Vanguards.md](The_Vanguards.md) | Sri Sairam Engineering College |
-| 11 | Pharma Innovators | [Pharma_Innovators.md](Pharma_Innovators.md) | SVCE |
-| 12 | Team Mavericks | [Team_Mavericks.md](Team_Mavericks.md) | SVCE |
-| 13 | Team Dracarys | [Team_Dracarys.md](Team_Dracarys.md) | SVCE |
-| 14 | SVCE Hackathon Dhinesh | [SVCE_Hackathon_Dhinesh.md](SVCE_Hackathon_Dhinesh.md) | Saveetha Engineering College |
-| 15 | Fight Club | [Fight_Club.md](Fight_Club.md) | SVCE |
-| 16 | Devhouse | [Devhouse.md](Devhouse.md) | SVCE |
-| 17 | Devil Genius | [Devil_Genius.md](Devil_Genius.md) | SVCE |
-| 18 | Team Singularity | [Team_Singularity.md](Team_Singularity.md) | SVCE |
-| 19 | Code Rescuers | [Code_Rescuers.md](Code_Rescuers.md) | SVCE |
-| 20 | Sixth Sense Coders | [Sixth_Sense_Coders.md](Sixth_Sense_Coders.md) | SVCE |
-| 21 | Team Targaryens | [Team_Targaryens.md](Team_Targaryens.md) | SVCE |
-| 22 | Cyber Nova | [Cyber_Nova.md](Cyber_Nova.md) | SVCE |
-| 23 | SVCE PPT2 Parvesh | [SVCE_PPT2_Parvesh.md](SVCE_PPT2_Parvesh.md) | Panimalar Engineering College |
-| 24 | Care Connect | [Care_Connect.md](Care_Connect.md) | SVCE |
-| 25 | Obscura | [Obscura.md](Obscura.md) | SVCE |
-| 26 | SVCE PPT1 Perrarish | [SVCE_PPT1_Perrarish.md](SVCE_PPT1_Perrarish.md) | Panimalar Engineering College |
-| 27 | Abstract Final Panimalar | [Abstract_Final_Panimalar.md](Abstract_Final_Panimalar.md) | Panimalar Engineering College |
-| 28 | BlockX | [BlockX.md](BlockX.md) | SVCE |
-| 29 | Powerhouse | [Powerhouse.md](Powerhouse.md) | SVCE |
-| 30 | Human Intelligence | [Human_Intelligence.md](Human_Intelligence.md) | SVCE |
-| 31 | Food and Health Nutrition | [Food_and_Health_Nutrition.md](Food_and_Health_Nutrition.md) | SVCE |
-| 32 | Code Fusion | [Code_Fusion.md](Code_Fusion.md) | SVCE |
+| # | Team | College | Report |
+|---|------|---------|--------|
+| 1 | Team Gojo | SVCE | [Team_Gojo_SVCE.md](Team_Gojo_SVCE.md) |
+| 2 | End of Beginning | SVCE | [End_of_Beginning_SVCE.md](End_of_Beginning_SVCE.md) |
+| 3 | OmniShield | SVCE | [OmniShield_SVCE.md](OmniShield_SVCE.md) |
+| 4 | Codex AI | SVCE | [Codex_AI_SVCE.md](Codex_AI_SVCE.md) |
+| 5 | Hash Hackers | SVCE | [Hash_Hackers_SVCE.md](Hash_Hackers_SVCE.md) |
+| 6 | Nothing | SVCE | [Nothing_SVCE.md](Nothing_SVCE.md) |
+| 7 | Off by One | SVCE | [Off_by_One_SVCE.md](Off_by_One_SVCE.md) |
+| 8 | SimpleX Crew | SVCE | [SimpleX_Crew_SVCE.md](SimpleX_Crew_SVCE.md) |
+| 9 | Infinity Loopers | SVCE | [Infinity_Loopers_SVCE.md](Infinity_Loopers_SVCE.md) |
+| 10 | The Vanguards | SSEC | [The_Vanguards_SSEC.md](The_Vanguards_SSEC.md) |
+| 11 | Pharma Innovators | SVCE | [Pharma_Innovators_SVCE.md](Pharma_Innovators_SVCE.md) |
+| 12 | Team Mavericks | SVCE | [Team_Mavericks_SVCE.md](Team_Mavericks_SVCE.md) |
+| 13 | Team Dracarys | SVCE | [Team_Dracarys_SVCE.md](Team_Dracarys_SVCE.md) |
+| 14 | Care Coders | SEC | [Care_Coders_SEC.md](Care_Coders_SEC.md) |
+| 15 | Fight Club | SVCE | [Fight_Club_SVCE.md](Fight_Club_SVCE.md) |
+| 16 | Devhouse | SVCE | [Devhouse_SVCE.md](Devhouse_SVCE.md) |
+| 17 | Devil Genius | SVCE | [Devil_Genius_SVCE.md](Devil_Genius_SVCE.md) |
+| 18 | Singularity | SVCE | [Singularity_SVCE.md](Singularity_SVCE.md) |
+| 19 | Code Rescuers | SVCE | [Code_Rescuers_SVCE.md](Code_Rescuers_SVCE.md) |
+| 20 | Sixth Sense Coders | SVCE | [Sixth_Sense_Coders_SVCE.md](Sixth_Sense_Coders_SVCE.md) |
+| 21 | Team Targaryens | SVCE | [Team_Targaryens_SVCE.md](Team_Targaryens_SVCE.md) |
+| 22 | Cyber Nova | SVCE | [Cyber_Nova_SVCE.md](Cyber_Nova_SVCE.md) |
+| 23 | ILC | PEC | [ILC_PEC.md](ILC_PEC.md) |
+| 24 | Care Connect | SVCE | [Care_Connect_SVCE.md](Care_Connect_SVCE.md) |
+| 25 | Obscura | SVCE | [Obscura_SVCE.md](Obscura_SVCE.md) |
+| 26 | IIP | PEC | [IIP_PEC.md](IIP_PEC.md) |
+| 27 | AI Fashion Design | PEC | [AI_Fashion_Design_PEC.md](AI_Fashion_Design_PEC.md) |
+| 28 | BlockX | SVCE | [BlockX_SVCE.md](BlockX_SVCE.md) |
+| 29 | Powerhouse | SVCE | [Powerhouse_SVCE.md](Powerhouse_SVCE.md) |
+| 30 | Human Intelligence | SVCE | [Human_Intelligence_SVCE.md](Human_Intelligence_SVCE.md) |
+| 31 | Food and Health Nutrition | SVCE | [Food_and_Health_Nutrition_SVCE.md](Food_and_Health_Nutrition_SVCE.md) |
+| 32 | Code Fusion | SVCE | [Code_Fusion_SVCE.md](Code_Fusion_SVCE.md) |
+
+> **College Legend:** SVCE = Sri Venkateswara College of Engineering | SSEC = Sri Sairam Engineering College | SEC = Saveetha Engineering College | PEC = Panimalar Engineering College
 
 ---
 
