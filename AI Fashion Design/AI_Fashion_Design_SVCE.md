@@ -2,10 +2,10 @@
 
 **The Reality Check:**
 
-*   **College:** Panimalar Engineering College (AI&DS department).
+*   **College:** Sri Venkateswara College of Engineering (SVCE), AI&DS department. Team name: MissFit Mannequin.
 *   **Problem Definition: Niche but Genuine.** Traditional fashion design involves time-consuming manual processes — sketch interpretation, fabric visualization, pattern making, and physical prototyping. The team correctly identifies the cost, time, and customization limitations. The virtual try-on problem (customers can't visualize garments before purchase, leading to 30%+ return rates) is commercially significant.
 *   **Tech Stack: Research-Grade.** Python + PyTorch + Flask/FastAPI + OpenCV + MediaPipe + HuggingFace Diffusers + ControlNet. This is a legitimate ML research stack. The combination of diffusion models (Stable Diffusion) with ControlNet for sketch-to-image generation is cutting-edge — published in 2023 research papers.
-*   **Submission Quality: Extremely Thin.** The submission is essentially an abstract — no architecture diagram, no flow chart, no business model, no team details, no competitive analysis. It reads like a research paper abstract, not a hackathon project proposal.
+*   **Submission Quality: Stronger Than Initially Assessed.** The submission includes a detailed flow diagram showing the sketch-to-garment pipeline (sketch input → edge detection → ControlNet conditioning → diffusion generation → virtual try-on overlay), a business model canvas covering B2C and B2B2C revenue streams, market data on Indian fashion e-commerce return rates, and a working Google Colab notebook (`dresstosketch(main).ipynb`) demonstrating the core sketch-to-image functionality. While the submission could benefit from more detailed architecture documentation, the presence of a working demo significantly elevates this team's technical credibility.
 *   **Competitive Landscape:** Google's Virtual Try-On, Zeekit (acquired by Walmart), Vue.ai, and Cala (AI fashion design) already operate in this space. Stable Diffusion + ControlNet for fashion is an active research area with papers from CMU, Google, and multiple AI labs.
 
 ---
