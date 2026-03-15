@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'dart:html' as html;
+import 'package:flutter/foundation.dart'; // For kIsWeb
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -10,12 +10,15 @@ import 'providers/team_provider.dart';
 import 'models/team.dart';
 import 'services/auth_service.dart';
 
+// Conditional import handling for the URL parsing
+import 'dart:html' if (dart.library.io) 'package:ete6_mentor_portal/models/team.dart' as html;
+
 void main() {
   runApp(const ProviderScope(child: SentinelApp()));
 }
 
 final handleProvider = StateProvider<String>((ref) => '');
-final authServiceProvider = Provider((ref) => GithubAuthService());
+final authServiceProvider = Provider((ref) => GithubAuthImplementation());
 
 // -----------------------------------------------------------------------------
 // NAVIGATION
@@ -70,17 +73,24 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
   @override
   void initState() {
     super.initState();
-    _checkAuth();
+    if (kIsWeb) {
+      _checkAuthWeb();
+    }
   }
 
-  void _checkAuth() async {
-    final uri = Uri.parse(html.window.location.href);
-    if (uri.queryParameters.containsKey('code')) {
-      final h = await ref.read(authServiceProvider).handleCallback(uri.queryParameters['code']!);
-      if (h != null) {
-        ref.read(handleProvider.notifier).state = h;
-        context.go('/dashboard');
+  void _checkAuthWeb() async {
+    // Only run this on web
+    try {
+      final uri = Uri.parse(Uri.base.toString());
+      if (uri.queryParameters.containsKey('code')) {
+        final h = await ref.read(authServiceProvider).handleCallback(uri.queryParameters['code']!);
+        if (h != null) {
+          ref.read(handleProvider.notifier).state = h;
+          context.go('/dashboard');
+        }
       }
+    } catch (e) {
+      // Fail silently on non-web
     }
   }
 
@@ -99,12 +109,12 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
               Container(padding: const EdgeInsets.all(12), decoration: BoxDecoration(border: Border.all(color: Colors.black, width: 3)), child: const Icon(Icons.terminal_sharp, size: 48)),
               const SizedBox(height: 32),
               Text('SENTINEL_6', style: GoogleFonts.jetBrainsMono(fontSize: 32, fontWeight: FontWeight.w900)),
-              const Text('MENTOR_INTERFACE_v1.0', style: TextStyle(fontSize: 10, color: Colors.black54, fontWeight: FontWeight.bold)),
+              const Text('MULTI_PLATFORM_INTERFACE', style: TextStyle(fontSize: 10, color: Colors.black54, fontWeight: FontWeight.bold)),
               const SizedBox(height: 48),
               if (!_isManual) ...[
                 _btn('SIGN IN WITH GITHUB', () => ref.read(authServiceProvider).redirectToGithub()),
                 const SizedBox(height: 16),
-                TextButton(onPressed: () => setState(() => _isManual = true), child: const Text('MANUAL_OVERRIDE', style: TextStyle(fontSize: 9, color: Colors.black38))),
+                TextButton(onPressed: () => setState(() => _isManual = true), child: const Text('MANUAL_IDENTITY_OVERRIDE', style: TextStyle(fontSize: 9, color: Colors.black38))),
               ] else ...[
                 _input('ENTER_HANDLE', _handleCtrl),
                 const SizedBox(height: 24),
@@ -245,7 +255,7 @@ class _TeamDetailScreenState extends ConsumerState<TeamDetailScreen> {
     final teams = ref.watch(teamProvider);
     if (teams.isEmpty) return const Scaffold(body: Center(child: Text('LOADING...')));
     
-    final team = teams.firstWhere((t) => t.name == widget.teamName, orElse: () => teams[0]);
+    final team = teams.firstWhere((t) => t.name == teamName, orElse: () => teams[0]);
     final handle = ref.watch(handleProvider);
     final isDesktop = MediaQuery.of(context).size.width > 900;
 
@@ -262,9 +272,9 @@ class _TeamDetailScreenState extends ConsumerState<TeamDetailScreen> {
             decoration: const BoxDecoration(border: Border(top: BorderSide(color: Colors.black, width: 2), bottom: BorderSide(color: Colors.black, width: 2))),
             child: Row(
               children: [
-                _t(0, 'REALITY', team.realityChecks.length),
-                _t(1, 'FAILURES', team.failures.length),
-                _t(2, 'BLUEPRINT', team.blueprint.length),
+                _tabItem(0, 'REALITY', team.realityChecks.length),
+                _tabItem(1, 'FAILURES', team.failures.length),
+                _tabItem(2, 'BLUEPRINT', team.blueprint.length),
               ],
             ),
           ),
@@ -272,25 +282,25 @@ class _TeamDetailScreenState extends ConsumerState<TeamDetailScreen> {
       ),
       body: Row(
         children: [
-          Expanded(flex: 3, child: _content(team)),
+          Expanded(flex: 3, child: _contentSection(team)),
           if (isDesktop) const VerticalDivider(width: 2, color: Colors.black),
-          if (isDesktop) Expanded(flex: 2, child: _editor(team, handle)),
+          if (isDesktop) Expanded(flex: 2, child: _editorSection(team, handle)),
         ],
       ),
       floatingActionButton: isDesktop ? null : FloatingActionButton(
         backgroundColor: Colors.black,
         child: const Icon(Icons.edit, color: Colors.white),
-        onPressed: () => _mobileEditor(team, handle),
+        onPressed: () => _showMobileEditor(team, handle),
       ),
     );
   }
 
-  Widget _t(int i, String l, int c) {
-    bool a = _tab == i;
-    return Expanded(child: InkWell(onTap: () => setState(() => _tab = i), child: Container(height: 60, color: a ? Colors.black : Colors.white, alignment: Alignment.center, child: Text('$l [$c]', style: TextStyle(color: a ? Colors.white : Colors.black, fontWeight: FontWeight.w900, fontSize: 10)))));
+  Widget _tabItem(int i, String l, int c) {
+    bool active = _tab == i;
+    return Expanded(child: InkWell(onTap: () => setState(() => _tab = i), child: Container(height: 60, color: active ? Colors.black : Colors.white, alignment: Alignment.center, child: Text('$l [$c]', style: TextStyle(color: active ? Colors.white : Colors.black, fontWeight: FontWeight.w900, fontSize: 10)))));
   }
 
-  Widget _content(Team team) {
+  Widget _contentSection(Team team) {
     List<dynamic> items = _tab == 0 ? team.realityChecks : (_tab == 1 ? team.failures : team.blueprint);
     if (items.isEmpty) return const Center(child: Text('[NO_DATA_STREAM]'));
 
@@ -298,21 +308,21 @@ class _TeamDetailScreenState extends ConsumerState<TeamDetailScreen> {
       padding: const EdgeInsets.all(32),
       itemCount: items.length,
       itemBuilder: (context, index) {
-        if (_tab == 1) return _fail(team, team.failures[index], index);
+        if (_tab == 1) return _failureItem(team, team.failures[index], index);
         return Container(margin: const EdgeInsets.only(bottom: 16), padding: const EdgeInsets.all(24), decoration: BoxDecoration(border: Border.all(color: Colors.black, width: 2)), child: Text(items[index].toString(), style: const TextStyle(fontSize: 14, height: 1.6)));
       },
     );
   }
 
-  Widget _fail(Team team, FailureItem f, int i) {
-    bool d = f.status == 'resolved';
+  Widget _failureItem(Team team, FailureItem f, int i) {
+    bool done = f.status == 'resolved';
     return InkWell(
       onTap: () => ref.read(teamProvider.notifier).toggleFailureStatus(team.name, i),
-      child: Container(margin: const EdgeInsets.only(bottom: 12), decoration: BoxDecoration(color: d ? Colors.black : Colors.white, border: Border.all(color: Colors.black, width: 2)), padding: const EdgeInsets.all(20), child: Row(children: [Icon(d ? Icons.check_circle : Icons.circle_outlined, color: d ? Colors.white : Colors.black), const SizedBox(width: 16), Expanded(child: Text(f.description, style: TextStyle(fontWeight: FontWeight.bold, color: d ? Colors.white : Colors.black, decoration: d ? TextDecoration.lineThrough : null)))]))
+      child: Container(margin: const EdgeInsets.only(bottom: 12), decoration: BoxDecoration(color: done ? Colors.black : Colors.white, border: Border.all(color: Colors.black, width: 2)), padding: const EdgeInsets.all(20), child: Row(children: [Icon(done ? Icons.check_circle : Icons.circle_outlined, color: done ? Colors.white : Colors.black), const SizedBox(width: 16), Expanded(child: Text(f.description, style: TextStyle(fontWeight: FontWeight.bold, color: done ? Colors.white : Colors.black, decoration: done ? TextDecoration.lineThrough : null)))]))
     );
   }
 
-  Widget _editor(Team team, String h) {
+  Widget _editorSection(Team team, String h) {
     return Padding(
       padding: const EdgeInsets.all(32),
       child: Column(
@@ -320,11 +330,11 @@ class _TeamDetailScreenState extends ConsumerState<TeamDetailScreen> {
         children: [
           const Text('COMMIT_LOG_STREAM', style: TextStyle(fontWeight: FontWeight.w900, fontSize: 16)),
           const SizedBox(height: 32),
-          Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [1, 2, 3].map((r) => _rBtn(r)).toList()),
+          Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [1, 2, 3].map((r) => _roundChip(r)).toList()),
           const SizedBox(height: 32),
-          _field('MENTOR', TextEditingController(text: h), enabled: false),
+          _inputField('MENTOR', TextEditingController(text: h), enabled: false),
           const SizedBox(height: 24),
-          _field('REMARKS', _remarks, lines: 6),
+          _inputField('REMARKS', _remarks, lines: 6),
           const SizedBox(height: 32),
           _submitBtn(team, h),
           const SizedBox(height: 32),
@@ -376,16 +386,16 @@ class _TeamDetailScreenState extends ConsumerState<TeamDetailScreen> {
     );
   }
 
-  void _mobileEditor(Team team, String h) {
-    showModalBottomSheet(context: context, isScrollControlled: true, builder: (_) => Container(height: MediaQuery.of(context).size.height * 0.85, decoration: BoxDecoration(color: Colors.white, border: Border.all(color: Colors.black, width: 4)), child: _editor(team, h)));
+  void _showMobileEditor(Team team, String h) {
+    showModalBottomSheet(context: context, isScrollControlled: true, builder: (_) => Container(height: MediaQuery.of(context).size.height * 0.85, decoration: BoxDecoration(color: Colors.white, border: Border.all(color: Colors.black, width: 4)), child: _editorSection(team, h)));
   }
 
-  Widget _rBtn(int r) {
-    bool a = _round == r;
-    return InkWell(onTap: () => setState(() => _round = r), child: Container(width: 70, height: 40, decoration: BoxDecoration(color: a ? Colors.black : Colors.white, border: Border.all(color: Colors.black, width: 2)), alignment: Alignment.center, child: Text('R$r', style: TextStyle(color: a ? Colors.white : Colors.black, fontWeight: FontWeight.w900))));
+  Widget _roundChip(int r) {
+    bool active = _round == r;
+    return InkWell(onTap: () => setState(() => _round = r), child: Container(width: 70, height: 40, decoration: BoxDecoration(color: active ? Colors.black : Colors.white, border: Border.all(color: Colors.black, width: 2)), alignment: Alignment.center, child: Text('R$r', style: TextStyle(color: active ? Colors.white : Colors.black, fontWeight: FontWeight.w900))));
   }
 
-  Widget _field(String label, TextEditingController ctrl, {int lines = 1, bool enabled = true}) {
+  Widget _inputField(String label, TextEditingController ctrl, {int lines = 1, bool enabled = true}) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
