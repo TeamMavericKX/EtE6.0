@@ -255,7 +255,7 @@ class _TeamDetailScreenState extends ConsumerState<TeamDetailScreen> {
     final teams = ref.watch(teamProvider);
     if (teams.isEmpty) return const Scaffold(body: Center(child: Text('LOADING...')));
     
-    final team = teams.firstWhere((t) => t.name == teamName, orElse: () => teams[0]);
+    final team = teams.firstWhere((t) => t.name == widget.teamName, orElse: () => teams[0]);
     final handle = ref.watch(handleProvider);
     final isDesktop = MediaQuery.of(context).size.width > 900;
 
